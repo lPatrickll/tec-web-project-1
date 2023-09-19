@@ -1,0 +1,26 @@
+.caja-1{
+    width: 400px;
+    height: 100px;
+    background-color: #0A2647;
+}
+.caja-2{
+    width: 400px;
+    height: 100px;
+    background-color: #144272;
+}
+.caja-3{
+    width: 400px;
+    height: 100px;
+    background-color: #205295;
+}
+.caja-4{
+    width: 400px;
+    height: 100px;
+    background-color: #2C74B3;
+}
+.caja-5{
+    margin-top: 5%;
+    width: 400px;
+    height: 100px;
+    background-color: hsl(110, 30%, 65%);
+}
