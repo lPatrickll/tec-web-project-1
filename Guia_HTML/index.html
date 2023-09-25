@@ -106,37 +106,957 @@
                         <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/title" target="_blank">Enlace</a></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td>&lt;a&gt;</td>
+                        <td>El Elemento HTML Anchor <code>&lt;a&gt;</code> crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.</td>
+                        <td><code>&lt;a href="https://www.mozilla.com/"&gt;Enlace externo&lt;/a&gt;</code> <br> <a href="https://www.mozilla.com/">Enlace externo</a></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/a" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;abbr&gt;</td>
+                        <td>El elemento HTML <code>&lt;abbr&gt;</code> (o Elemento de Abreviación HTML) representa una abreviación o acrónimo; el atributo opcional <code>title</code> puede ampliar o describir la abreviatura. Si está presente, el atributo <code>title</code> debe contener la descripción completa y nada más.</td>
+                        <td>&lt;p&gt;I do &lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt;&lt;/p&gt; <br> <p>I do <abbr title="Hypertext Markup Language">HTML</abbr></p></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/abbr" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;address&gt;</td>
+                        <td>El elemento HTML <code>&lt;address&gt;</code> aporta información de contacto para su <code>&lt;article&gt;</code> más cercano o ancestro <code>&lt;body&gt;</code>; en el último caso lo aplica a todo el documento.</td>
+                        <td><code>&lt;address&gt; <br> You can contact author at &lt;br&gt; <br> &lt;a href="http://www.somedomain.com/contact"&gt;www.somedomain.com&lt;/a&gt; <br> &lt;/address&gt;</code> <br> <address>You can contact author at <br> <a href="http://www.somedomain.com/contact">www.somedomain.com</a></address></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/address" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;article&gt;</td>
+                        <td>El Elemento de HTML <code>&lt;article&gt;</code> representa una composición auto-contenida en un documento, una página, una aplicación o en un sitio, que se quiere que sea distribuíble y/o reutilizable de manera independiente, por ejemplo, en la redifusión. Algunos ejemplos podrían ser un mensaje en un foro, un artículo de una revista o un periódico, una entrada de blog, el comentario de un usuario, un widget o gadget interactivo, o cualquier otro elemento de contenido independiente.</td>
+                        <td><code>&lt;article&gt; <br> &lt;p&gt;Este es un articulo&lt;/p&gt; <br> &lt;/article&gt;</code> <br> <article><p>Este es un articulo</p></article></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/article" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;aside&gt;</td>
+                        <td>El elemento HTML <code>&lt;aside&gt;</code> representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento. Estas secciones son a menudo representadas como barras laterales o como inserciones y contienen una explicación al margen como una definición de glosario, elementos relacionados indirectamente, como publicidad, la biografía del autor, o en aplicaciones web, la información de perfil o enlaces a blogs relacionados.</td>
+                        <td><img src="./IMG/Ejem-aside.jpg" alt="Ejemplo de aside"></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/aside" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;audio&gt;</td>
+                        <td>El elemento <code>&lt;audio&gt;</code> en HTML se utiliza para incrustar contenido de audio, como música o efectos de sonido, en una página web. Permite a los usuarios reproducir, pausar y ajustar el volumen del audio directamente en la página. Se utiliza junto con el elemento <code>&lt;source&gt;</code> para especificar la fuente del archivo de audio y es altamente personalizable mediante atributos y eventos para adaptarse a las necesidades del desarrollador.</td>
+                        <td><code>&lt;audio controls&gt; <br> &lt;source src="mi_audio.mp3" type="audio/mpeg"&gt; <br> Tu navegador no admite la reproducción de audio. <br> &lt;/audio&gt;</code> <br><audio controls><source src="mi_audio.mp3" type="audio/mpeg">Tu navegador no admite la reproducción de audio.</audio></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/audio" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;b&gt;</td>
+                        <td>Indica que el texto debe ser representado con una variable bold, o negrita,de la tipografía que se esté usando. Sus elementos son <code>&lt;b&gt;</code> y <code>&lt;/b&gt;</code></td>
+                        <td><code>&lt;p&gt; Esto es:  &lt;b&gt; un elemento b &lt;/b&gt;&lt;/p&gt;</code><p> Esto es:  <b> un elemento b </b></p></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/b" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;bdo&gt;</td>
+                        <td>El elemento <code>&lt;bdo&gt;</code> en HTML se utiliza para especificar la dirección de escritura de texto en un fragmento de contenido, anulando la dirección de escritura predeterminada de la página. "bdo" significa "Bi-Directional Override" (anulación bidireccional) y se utiliza principalmente en situaciones donde el texto debe mostrarse en una dirección de escritura diferente a la de la página.</td>
+                        <td><code>&lt;p&gt;Este es un ejemplo de texto en español.&lt;/p&gt; <br> &lt;p&gt;&lt;bdo dir="rtl"&gt;هذا هو مثال على نص باللغة العربية.&lt;/bdo&gt;&lt;/p&gt;</code> <br> <p>Este es un ejemplo de texto en español.</p><p><bdo dir="rtl">هذا هو مثال على نص باللغة العربية.</bdo></p></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/bdo" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;bdi&gt;</td>
+                        <td>El elemento <code>&lt;bdi&gt;</code> en HTML, que significa "Bi-Directional Isolation" (Aislamiento Bi-direccional), se utiliza para encapsular una parte de texto dentro de una página web que debe mantener su dirección de escritura y formato, aislándola de la dirección de escritura y formato del texto circundante. Esto es especialmente útil cuando se trabaja con texto en idiomas que se escriben de derecha a izquierda (RTL) o con caracteres que tienen direcciones de escritura diferentes.</td>
+                        <td><code>&lt;p&gt;Texto en español.&lt;/p&gt; <br> &lt;p&gt;&lt;bdi&gt;نص باللغة العربية&lt;/bdi&gt;&lt;/p&gt;</code><p>Texto en español.</p><p><bdi>نص باللغة العربية</bdi></p></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/bdi" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;blockquote&gt;</td>
+                        <td>El elemento <code>&lt;blockquote&gt;</code> en HTML se utiliza para citar un fragmento de texto de otra fuente dentro de tu página web. Este elemento es especialmente útil cuando deseas citar texto de un autor o fuente externa y deseas darle un formato especial para indicar que es una cita.</td>
+                        <td><code>&lt;blockquote&gt; <br> &lt;p&gt;La educación es el arma más poderosa que puedes usar para cambiar el mundo.&lt;/p&gt; <br> &lt;cite&gt;Nelson Mandela&lt;/cite&gt; <br> &lt;/blockquote&gt;</code><blockquote><p>La educación es el arma más poderosa que puedes usar para cambiar el mundo.</p><cite>Nelson Mandela</cite></blockquote></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;br&gt;</td>
+                        <td>El elemento HTML line break <code>&lt;br&gt;</code> produce un salto de línea en el texto (retorno de carro). Es útil para escribir un poema o una dirección, donde la división de las líneas es significante. <code>&lt;br&gt;</code> No utilices <code>&lt;br&gt;</code> para incrementar el espacio entre líneas de texto; para ello utiliza la propiedad margin de CSS o el elemento <code>&lt;p&gt;</code>.</td>
+                        <td><code>Mozilla Foundation&lt;br&gt; <br> 1981 Landings Drive&lt;br&gt;</code><br>Mozilla Foundation<br>1981 Landings Drive<br></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/br" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;button&gt;</td>
+                        <td>El elemento <code>&lt;button&gt;</code> en HTML se utiliza para crear un botón interactivo en una página web. Los botones son elementos fundamentales para crear formularios, activar acciones mediante JavaScript o llevar a cabo diversas acciones en una página web, como enviar formularios, abrir enlaces o realizar acciones específicas cuando se hace clic en ellos.</td>
+                        <td><code>&lt;button type="button"&gt;Haz clic aquí&lt;/button&gt;</code><br><button type="button">Haz clic aquí</button></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/button" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;canvas&gt;</td>
+                        <td>El elemento <code>&lt;canvas&gt;</code> en HTML es una etiqueta que se utiliza para crear gráficos, dibujos y animaciones en una página web utilizando JavaScript. Este elemento proporciona un lienzo en blanco en el cual puedes dibujar y renderizar gráficos de manera programática.</td>
+                        <td><code>&lt;canvas id="miCanvas" width="400" height="200"&gt;&lt;/canvas&gt;</code> <br> <canvas id="miCanvas" width="400" height="200"></canvas></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/canvas" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;cite&gt;</td>
+                        <td>El elemento <code>&lt;cite&gt;</code> en HTML se utiliza para marcar o citar el título de una obra o recurso, como un libro, una película, un artículo, una canción, etc., dentro de un párrafo de texto. Su propósito es proporcionar una indicación semántica de que el texto dentro de <code>&lt;cite&gt;</code> es una referencia a una fuente específica, como una cita o una obra mencionada.</td>
+                        <td><code>&lt;p&gt;En su famosa obra "&lt;cite&gt;El gran Gatsby&lt;/cite&gt;," F. Scott Fitzgerald narra la vida de Jay Gatsby durante la década de 1920.&lt;/p&gt;</code> <br> <p>En su famosa obra "<cite>El gran Gatsby</cite>," F. Scott Fitzgerald narra la vida de Jay Gatsby durante la década de 1920.</p></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/cite" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;code&gt;</td>
+                        <td>El elemento <code>&lt;code&gt;</code> en HTML se utiliza para marcar y formatear fragmentos de código fuente, ya sea código HTML, CSS, JavaScript u otros lenguajes de programación, dentro de una página web. El texto contenido dentro de <code>&lt;code&gt;</code> generalmente se muestra en una fuente monoespaciada (como Courier) y no se interpreta como HTML, lo que significa que los caracteres especiales se mostrarán tal como están, en lugar de ser interpretados como etiquetas HTML.</td>
+                        <td><code>&lt;p&gt;Para imprimir un mensaje en JavaScript, puedes usar el siguiente código:&lt;/p&gt; <br> &lt;code&gt;console.log("Hola, mundo!");&lt;/code&gt;</code> <br> <p>Para imprimir un mensaje en JavaScript, puedes usar el siguiente código:</p><code>console.log("Hola, mundo!");</code></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/code" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;data&gt;</td>
+                        <td>El elemento <code>&lt;data&gt;</code> en HTML se utiliza para proporcionar un valor asociado con un texto descriptivo o legible por humanos. Este elemento permite incrustar datos que son legibles por máquinas en una página web y al mismo tiempo proporcionar una etiqueta descriptiva para los usuarios.</td>
+                        <td><code>&lt;p&gt;La temperatura actual es &lt;data value="24"&gt;24 grados Celsius&lt;/data&gt;.&lt;/p&gt;</code> <br> <p>La temperatura actual es <data value="24">24 grados Celsius</data>.</p></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/data" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;datalist&gt;</td>
+                        <td>El elemento HTML <code>&lt;datalist&gt;</code> contiene un conjunto de elementos <code>&lt;option&gt;</code> que representan los valores disponibles para otros controles.</td>
+                        <td><code>&lt;label&gt;Choose a browser from this list: &lt;input list="browsers" name="myBrowser"/&gt;&lt;/label&gt;<br>&lt;datalist id="browsers"&gt;<br>&lt;option value="Chrome"&gt;&lt;/option&gt;<br>&lt;option value="Firefox"&gt;&lt;/option&gt;<br>&lt;option value="Internet Explorer"&gt;&lt;/option&gt;<br>&lt;option value="Opera"&gt;&lt;/option&gt;<br>&lt;option value="Safari"&gt;&lt;/option&gt;<br>&lt;option value="Microsoft Edge"&gt;&lt;/option&gt;<br>&lt;/datalist&gt;</code><br><label>Choose a browser from this list: <input list="browsers" name="myBrowser"/></label><datalist id="browsers"><option value="Chrome"></option><option value="Firefox"></option><option value="Internet Explorer"></option><option value="Opera"></option><option value="Safari"></option><option value="Microsoft Edge"></option></datalist></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/datalist" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;del&gt;</td>
+                        <td>El elemento <code>&lt;del&gt;</code> en HTML se utiliza para representar texto que ha sido eliminado o marcado como obsoleto o incorrecto en una página web. Puede ayudar a mostrar las revisiones o cambios en el contenido a lo largo del tiempo.</td>
+                        <td><code>&lt;p&gt;La versión anterior del producto era de &lt;del&gt;$100&lt;/del&gt; $80.&lt;/p&gt;</code><br><p>La versión anterior del producto era de <del>$100</del> $80.</p></td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/del" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;details&gt;</td>
+                        <td>El elemento <code>&lt;details&gt;</code> en HTML se utiliza para crear un widget desplegable que permite a los usuarios mostrar o ocultar contenido adicional, como información detallada o instrucciones. Puede contener un elemento <code>&lt;summary&gt;</code> que actúa como el encabezado del widget y se muestra cuando el contenido está oculto.</td>
+                        <td><code>&lt;details&gt; <br> &lt;summary&gt;Haz clic para obtener más información&lt;/summary&gt; <br> &lt;p&gt;Este es el contenido oculto.&lt;/p&gt; <br> &lt;/details&gt;</code> <br> <details><summary>Haz clic para obtener más información</summary><p>Este es el contenido oculto.</p></details>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/details" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dfn&gt;</td>
+                        <td>El elemento <code>&lt;dfn&gt;</code> en HTML se utiliza para marcar una definición de un término o palabra dentro de un texto. Es especialmente útil en documentos técnicos o de referencia para resaltar y definir términos clave para los lectores.</td>
+                        <td><code>&lt;p&gt;El <dfn>término</dfn> se refiere a una palabra o frase específica.&lt;/p&gt;</code> <br> <p>El <dfn>término</dfn> se refiere a una palabra o frase específica.</p>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/dfn" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div&gt;</td>
+                        <td>El elemento <code>&lt;div&gt;</code> en HTML se utiliza para crear una división o contenedor genérico en una página web. No tiene un significado semántico específico, pero se utiliza para organizar y estructurar el contenido de la página y aplicar estilos y diseño mediante CSS.</td>
+                        <td><code>&lt;div&gt;Este es un contenedor genérico.&lt;/div&gt;</code> <br> <div>Este es un contenedor genérico.</div>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/div" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dl&gt;</td>
+                        <td>El elemento <code>&lt;dl&gt;</code> en HTML se utiliza para crear una lista de descripción (listado de definiciones). Se compone de pares de términos y descripciones asociadas utilizando los elementos <code>&lt;dt&gt;</code> (término) y <code>&lt;dd&gt;</code> (descripción).</td>
+                        <td>
+                            <code>
+                                &lt;dl&gt; <br>
+                                &lt;dt&gt;HTML&lt;/dt&gt; <br>
+                                &lt;dd&gt;Lenguaje de marcado para la creación de páginas web.&lt;/dd&gt; <br>
+                                &lt;dt&gt;CSS&lt;/dt&gt; <br>
+                                &lt;dd&gt;Lenguaje de hojas de estilo para la presentación de páginas web.&lt;/dd&gt; <br>
+                                &lt;/dl&gt;
+                            </code>
+                            <br>
+                            <dl>
+                                <dt>HTML</dt>
+                                <dd>Lenguaje de marcado para la creación de páginas web.</dd>
+                                <dt>CSS</dt>
+                                <dd>Lenguaje de hojas de estilo para la presentación de páginas web.</dd>
+                            </dl>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/dl" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;em&gt;</td>
+                        <td>El elemento <code>&lt;em&gt;</code> en HTML se utiliza para enfatizar el texto, generalmente mostrándolo en cursiva. Indica que el contenido debe destacarse de manera que se transmita un énfasis o énfasis en el texto.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;Este es un ejemplo de texto &lt;em&gt;enfatizado&lt;/em&gt;.&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>Este es un ejemplo de texto <em>enfatizado</em>.</p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/em" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;fieldset&gt;</td>
+                        <td>El elemento <code>&lt;fieldset&gt;</code> en HTML se utiliza para agrupar y etiquetar elementos de formulario relacionados. Puede contener uno o varios elementos <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, y otros elementos de formulario, junto con una etiqueta que describe el propósito del grupo.</td>
+                        <td>
+                            <code>
+                                &lt;fieldset&gt; <br>
+                                &lt;legend&gt;Información personal&lt;/legend&gt; <br>
+                                &lt;label for="nombre"&gt;Nombre:&lt;/label&gt; <br>
+                                &lt;input type="text" id="nombre" name="nombre"&gt; <br>
+                                &lt;label for="email"&gt;Email:&lt;/label&gt; <br>
+                                &lt;input type="email" id="email" name="email"&gt; <br>
+                                &lt;/fieldset&gt;
+                            </code>
+                            <br>
+                            <fieldset>
+                                <legend>Información personal</legend>
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email">
+                            </fieldset>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/fieldset" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;figure&gt;</td>
+                        <td>El elemento <code>&lt;figure&gt;</code> en HTML se utiliza para encapsular cualquier contenido que sea referenciado desde el contenido principal, como imágenes, gráficos, diagramas, videos, u otros elementos multimedia. Se utiliza junto con <code>&lt;figcaption&gt;</code> para proporcionar una descripción o título para el contenido encapsulado.</td>
+                        <td>
+                            <code>
+                                &lt;figure&gt; <br>
+                                &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt; <br>
+                                &lt;figcaption&gt;Esta es una imagen de muestra&lt;/figcaption&gt; <br>
+                                &lt;/figure&gt;
+                            </code>
+                            <br>
+                            <figure>
+                                <img src="imagen.jpg" alt="Descripción de la imagen">
+                                <figcaption>Esta es una imagen de muestra</figcaption>
+                            </figure>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/figure" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;footer&gt;</td>
+                        <td>El elemento <code>&lt;footer&gt;</code> en HTML se utiliza para representar el pie de una sección o contenedor, como el pie de una página web, el pie de un artículo o el pie de una sección. Contiene información de metadatos, derechos de autor, enlaces relacionados y otros elementos que pertenecen al pie de la página.</td>
+                        <td>
+                            <code>
+                                &lt;footer&gt; <br>
+                                &lt;p&gt;© 2023 Mi Sitio Web&lt;/p&gt; <br>
+                                &lt;nav&gt; <br>
+                                &lt;a href="politica.html"&gt;Política de privacidad&lt;/a&gt; <br>
+                                &lt;a href="contacto.html"&gt;Contáctanos&lt;/a&gt; <br>
+                                &lt;/nav&gt; <br>
+                                &lt;/footer&gt;
+                            </code>
+                            <br>
+                            <footer>
+                                <p>© 2023 Mi Sitio Web</p>
+                                <nav>
+                                    <a href="politica.html">Política de privacidad</a>
+                                    <a href="contacto.html">Contáctanos</a>
+                                </nav>
+                            </footer>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/footer" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;form&gt;</td>
+                        <td>El elemento <code>&lt;form&gt;</code> en HTML se utiliza para crear un formulario en una página web. Puede contener varios elementos de entrada, como campos de texto, botones de opción, casillas de verificación y botones de envío, que permiten a los usuarios enviar datos al servidor para su procesamiento.</td>
+                        <td>
+                            <code>
+                                &lt;form action="procesar.php" method="post"&gt; <br>
+                                &lt;label for="nombre"&gt;Nombre:&lt;/label&gt; <br>
+                                &lt;input type="text" id="nombre" name="nombre" required&gt; <br>
+                                &lt;label for="email"&gt;Email:&lt;/label&gt; <br>
+                                &lt;input type="email" id="email" name="email" required&gt; <br>
+                                &lt;button type="submit"&gt;Enviar&lt;/button&gt; <br>
+                                &lt;/form&gt;
+                            </code>
+                            <br>
+                            <form action="procesar.php" method="post">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                                <button type="submit">Enviar</button>
+                            </form>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/form" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;header&gt;</td>
+                        <td>El elemento <code>&lt;header&gt;</code> en HTML se utiliza para representar la cabecera o encabezado de una sección o de toda la página. Contiene información introductoria o de navegación, como logotipos, títulos, menús y otros elementos relevantes para la parte superior de la página.</td>
+                        <td>
+                            <code>
+                                &lt;header&gt; <br>
+                                &lt;h1&gt;Mi Sitio Web&lt;/h1&gt; <br>
+                                &lt;nav&gt; <br>
+                                &lt;a href="inicio.html"&gt;Inicio&lt;/a&gt; <br>
+                                &lt;a href="acerca.html"&gt;Acerca de&lt;/a&gt; <br>
+                                &lt;/nav&gt; <br>
+                                &lt;/header&gt;
+                            </code>
+                            <br>
+                            <header>
+                                <h1>Mi Sitio Web</h1>
+                                <nav>
+                                    <a href="inicio.html">Inicio</a>
+                                    <a href="acerca.html">Acerca de</a>
+                                </nav>
+                            </header>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/header" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;hgroup&gt;</td>
+                        <td>El elemento <code>&lt;hgroup&gt;</code> en HTML se utilizaba anteriormente para agrupar varios elementos de encabezado, como <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc., dentro de un solo grupo. Sin embargo, este elemento se considera obsoleto en HTML5 y se recomienda utilizar elementos de encabezado individuales para representar la estructura del encabezado.</td>
+                        <td>
+                            <code>
+                                &lt;hgroup&gt; <br>
+                                &lt;h1&gt;Título Principal&lt;/h1&gt; <br>
+                                &lt;h2&gt;Subtítulo&lt;/h2&gt; <br>
+                                &lt;/hgroup&gt;
+                            </code>
+                            <br>
+                            <hgroup>
+                                <h1>Título Principal</h1>
+                                <h2>Subtítulo</h2>
+                            </hgroup>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/hgroup" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;hr&gt;</td>
+                        <td>El elemento <code>&lt;hr&gt;</code> en HTML se utiliza para crear una línea horizontal temática o divisoria en una página web. Se utiliza para separar contenido o secciones visuales, como párrafos, temas o bloques de información.</td>
+                        <td>
+                            <code>
+                                &lt;hr&gt;
+                            </code>
+                            <br>
+                            <hr>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/hr" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;i&gt;</td>
+                        <td>El elemento <code>&lt;i&gt;</code> en HTML se utilizaba tradicionalmente para representar texto en cursiva. Sin embargo, en HTML5, se recomienda utilizar elementos semánticos apropiados, como <code>&lt;em&gt;</code> o <code>&lt;strong&gt;</code>, para proporcionar significado y contexto al texto en lugar de utilizar <code>&lt;i&gt;</code> únicamente para la presentación visual en cursiva.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;Este es un ejemplo de texto &lt;i&gt;en cursiva&lt;/i&gt;.&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>Este es un ejemplo de texto <i>en cursiva</i>.</p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/i" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;iframe&gt;</td>
+                        <td>El elemento <code>&lt;iframe&gt;</code> en HTML se utiliza para incrustar otro documento HTML dentro de la página actual. Puede ser utilizado para mostrar contenido de sitios web externos, mapas, videos, y más, en una ventana dentro de la página principal.</td>
+                        <td>
+                            <code>
+                                &lt;iframe src="https://www.ejemplo.com" width="600" height="400"&gt;&lt;/iframe&gt;
+                            </code>
+                            <br>
+                            <iframe src="https://www.ejemplo.com" width="600" height="400"></iframe>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;img&gt;</td>
+                        <td>El elemento <code>&lt;img&gt;</code> en HTML se utiliza para mostrar imágenes en una página web. Debes proporcionar la URL de la imagen en el atributo <code>src</code> para que se muestre en la página. También puedes agregar atributos opcionales, como <code>alt</code> para texto alternativo y <code>width</code> y <code>height</code> para el tamaño de la imagen.</td>
+                        <td>
+                            <code>
+                                &lt;img src="imagen.jpg" alt="Descripción de la imagen" width="300" height="200"&gt;
+                            </code>
+                            <br>
+                            <img src="imagen.jpg" alt="Descripción de la imagen" width="300" height="200">
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/img" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;input&gt;</td>
+                        <td>El elemento <code>&lt;input&gt;</code> en HTML se utiliza para crear campos de entrada en formularios. Puede tomar varios tipos, como texto, contraseña, casilla de verificación, radio, botón y más, dependiendo del valor del atributo <code>type</code>. Los usuarios pueden ingresar datos en estos campos para enviar al servidor.</td>
+                        <td>
+                            <code>
+                                &lt;input type="text" id="nombre" name="nombre" value=""&gt; <br>
+                                &lt;input type="checkbox" id="suscripcion" name="suscripcion" value="suscrito"&gt; <br>
+                                &lt;input type="submit" value="Enviar"&gt;
+                            </code>
+                            <br>
+                            <input type="text" id="nombre" name="nombre" value="">
+                            <input type="checkbox" id="suscripcion" name="suscripcion" value="suscrito">
+                            <input type="submit" value="Enviar">
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/input" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;ins&gt;</td>
+                        <td>El elemento <code>&lt;ins&gt;</code> en HTML se utiliza para representar texto o contenido que ha sido insertado en un documento o página web. Puede ser útil en contextos como seguimiento de cambios o revisiones en documentos.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;El producto &lt;ins&gt;nuevo&lt;/ins&gt; está disponible ahora.&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>El producto <ins>nuevo</ins> está disponible ahora.</p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/ins" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;kbd&gt;</td>
+                        <td>El elemento <code>&lt;kbd&gt;</code> en HTML se utiliza para representar el texto que el usuario debe ingresar desde el teclado, como comandos de teclado, combinaciones de teclas o atajos de teclado.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;Presiona &lt;kbd&gt;Ctrl + C&lt;/kbd&gt; para copiar el texto.&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>Presiona <kbd>Ctrl + C</kbd> para copiar el texto.</p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/kbd" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;label&gt;</td>
+                        <td>El elemento <code>&lt;label&gt;</code> en HTML se utiliza para asociar un texto descriptivo con un elemento de formulario. Esto mejora la accesibilidad y la usabilidad de los formularios, ya que los usuarios pueden hacer clic en el texto del <code>&lt;label&gt;</code> para seleccionar o enfocar el campo de entrada correspondiente.</td>
+                        <td>
+                            <code>
+                                &lt;label for="nombre"&gt;Nombre:&lt;/label&gt; <br>
+                                &lt;input type="text" id="nombre" name="nombre"&gt;
+                            </code>
+                            <br>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre">
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/label" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;main&gt;</td>
+                        <td>El elemento <code>&lt;main&gt;</code> en HTML se utiliza para representar el contenido principal de una página web. Debe haber un único elemento <code>&lt;main&gt;</code> en cada documento HTML, y su contenido debe ser relevante y único para la página.</td>
+                        <td>
+                            <code>
+                                &lt;main&gt; <br>
+                                &lt;h1&gt;Título Principal&lt;/h1&gt; <br>
+                                &lt;p&gt;Este es el contenido principal de la página.&lt;/p&gt; <br>
+                                &lt;/main&gt;
+                            </code>
+                            <br>
+                            <main>
+                                <h1>Título Principal</h1>
+                                <p>Este es el contenido principal de la página.</p>
+                            </main>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/main" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;map&gt;</td>
+                        <td>El elemento <code>&lt;map&gt;</code> en HTML se utiliza junto con el elemento <code>&lt;area&gt;</code> para crear mapas de imágenes interactivos. Puedes definir áreas sensibles en una imagen y asignarles enlaces o acciones específicas.</td>
+                        <td>
+                            <code>
+                                &lt;img src="plano.png" usemap="#planomap"&gt; <br>
+                                &lt;map name="planomap"&gt; <br>
+                                &lt;area shape="rect" coords="0,0,50,50" href="zona1.html"&gt; <br>
+                                &lt;area shape="rect" coords="50,50,100,100" href="zona2.html"&gt; <br>
+                                &lt;/map&gt;
+                            </code>
+                            <br>
+                            <img src="plano.png" usemap="#planomap">
+                            <map name="planomap">
+                                <area shape="rect" coords="0,0,50,50" href="zona1.html">
+                                <area shape="rect" coords="50,50,100,100" href="zona2.html">
+                            </map>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/map" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;mark&gt;</td>
+                        <td>El elemento <code>&lt;mark&gt;</code> en HTML se utiliza para resaltar o marcar parte del texto dentro de un párrafo o una sección de contenido. Esto puede ser útil para resaltar términos de búsqueda o información relevante.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;Este es un texto de ejemplo y &lt;mark&gt;esto está resaltado&lt;/mark&gt;.&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>Este es un texto de ejemplo y <mark>esto está resaltado</mark>.</p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/mark" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;math&gt;</td>
+                        <td>El elemento <code>&lt;math&gt;</code> en HTML se utiliza para representar contenido matemático, como fórmulas, ecuaciones y notación matemática. Puede contener elementos como <code>&lt;mrow&gt;</code>, <code>&lt;msup&gt;</code>, <code>&lt;msqrt&gt;</code>, entre otros, para estructurar expresiones matemáticas.</td>
+                        <td>
+                            <code>
+                                &lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt; <br>
+                                &lt;mrow&gt; <br>
+                                &lt;msup&gt; <br>
+                                &lt;mi&gt;x&lt;/mi&gt; <br>
+                                &lt;mn&gt;2&lt;/mn&gt; <br>
+                                &lt;/msup&gt; <br>
+                                &lt;/mrow&gt; <br>
+                                &lt;/math&gt;
+                            </code>
+                            <br>
+                            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <msup>
+                                        <mi>x</mi>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                            </math>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/math" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;menu&gt;</td>
+                        <td>El elemento <code>&lt;menu&gt;</code> en HTML se utiliza para definir una lista de comandos o enlaces de menú que los usuarios pueden seleccionar. Es útil en aplicaciones web para crear menús desplegables o barras de menú.</td>
+                        <td>
+                            <code>
+                                &lt;menu type="toolbar"&gt; <br>
+                                &lt;li&gt;&lt;a href="#"&gt;Archivo&lt;/a&gt;&lt;/li&gt; <br>
+                                &lt;li&gt;&lt;a href="#"&gt;Editar&lt;/a&gt;&lt;/li&gt; <br>
+                                &lt;li&gt;&lt;a href="#"&gt;Ver&lt;/a&gt;&lt;/li&gt; <br>
+                                &lt;/menu&gt;
+                            </code>
+                            <br>
+                            <menu type="toolbar">
+                                <li><a href="#">Archivo</a></li>
+                                <li><a href="#">Editar</a></li>
+                                <li><a href="#">Ver</a></li>
+                            </menu>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/menu" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;meter&gt;</td>
+                        <td>El elemento <code>&lt;meter&gt;</code> en HTML se utiliza para representar una medida escalar dentro de un rango conocido o un valor fraccional, como puntajes, calificaciones, o medidores de progreso. Puedes definir el valor mínimo y máximo, así como el valor actual dentro de ese rango.</td>
+                        <td>
+                            <code>
+                                &lt;meter value="70" min="0" max="100"&gt;70%&lt;/meter&gt;
+                            </code>
+                            <br>
+                            <meter value="70" min="0" max="100">70%</meter>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/meter" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;nav&gt;</td>
+                        <td>El elemento <code>&lt;nav&gt;</code> en HTML se utiliza para definir una sección de navegación en una página web. Usualmente contiene enlaces de navegación, como menús o barras de navegación, que permiten a los usuarios acceder a diferentes partes del sitio web.</td>
+                        <td>
+                            <code>
+                                &lt;nav&gt; <br>
+                                &lt;a href="#"&gt;Inicio&lt;/a&gt; <br>
+                                &lt;a href="#"&gt;Acerca de&lt;/a&gt; <br>
+                                &lt;a href="#"&gt;Contacto&lt;/a&gt; <br>
+                                &lt;/nav&gt;
+                            </code>
+                            <br>
+                            <nav>
+                                <a href="#">Inicio</a>
+                                <a href="#">Acerca de</a>
+                                <a href="#">Contacto</a>
+                            </nav>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/nav" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;noscript&gt;</td>
+                        <td>El elemento <code>&lt;noscript&gt;</code> en HTML se utiliza para proporcionar contenido alternativo que se mostrará si los scripts no están habilitados en el navegador del usuario. Esto es útil para garantizar que el contenido sea accesible para todos los usuarios, incluso aquellos que no pueden ejecutar scripts.</td>
+                        <td>
+                            <code>
+                                &lt;noscript&gt;Debes habilitar JavaScript para ver esta página.&lt;/noscript&gt;
+                            </code>
+                            <br>
+                            <noscript>Debes habilitar JavaScript para ver esta página.</noscript>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/noscript" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;object&gt;</td>
+                        <td>El elemento <code>&lt;object&gt;</code> en HTML se utiliza para incrustar objetos multimedia, como videos, audio, applets de Java o contenido interactivo en una página web. Puede contener atributos para especificar la fuente del objeto y su tipo.</td>
+                        <td>
+                            <code>
+                                &lt;object data="video.mp4" width="320" height="240"&gt; &lt;/object&gt;
+                            </code>
+                            <br>
+                            <object data="video.mp4" width="320" height="240"></object>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/object" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;ol&gt;</td>
+                        <td>El elemento <code>&lt;ol&gt;</code> en HTML se utiliza para crear listas ordenadas, donde cada elemento de la lista se numera automáticamente en orden ascendente. Puedes anidar elementos <code>&lt;li&gt;</code> dentro de <code>&lt;ol&gt;</code> para crear una lista jerárquica.</td>
+                        <td>
+                            <code>
+                                &lt;ol&gt; <br>
+                                &lt;li&gt;Elemento 1&lt;/li&gt; <br>
+                                &lt;li&gt;Elemento 2&lt;/li&gt; <br>
+                                &lt;li&gt;Elemento 3&lt;/li&gt; <br>
+                                &lt;/ol&gt;
+                            </code>
+                            <br>
+                            <ol>
+                                <li>Elemento 1</li>
+                                <li>Elemento 2</li>
+                                <li>Elemento 3</li>
+                            </ol>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/ol" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;output&gt;</td>
+                        <td>El elemento <code>&lt;output&gt;</code> en HTML se utiliza para mostrar resultados de cálculos o scripts. Puedes asociarlo a elementos de entrada para mostrar resultados en tiempo real, como en calculadoras en línea.</td>
+                        <td>
+                            <code>
+                                &lt;label for="num1"&gt;Número 1:&lt;/label&gt; <br>
+                                &lt;input type="number" id="num1" value="5"&gt; <br>
+                                &lt;label for="num2"&gt;Número 2:&lt;/label&gt; <br>
+                                &lt;input type="number" id="num2" value="10"&gt; <br>
+                                &lt;output for="num1 num2"&gt;&lt;/output&gt;
+                            </code>
+                            <br>
+                            <label for="num1">Número 1:</label>
+                            <input type="number" id="num1" value="5">
+                            <label for="num2">Número 2:</label>
+                            <input type="number" id="num2" value="10">
+                            <output for="num1 num2"></output>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/output" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>El elemento <code>&lt;p&gt;</code> en HTML se utiliza para definir un párrafo de texto. Es uno de los elementos de bloque más comunes y se utiliza para estructurar el contenido textual en párrafos separados.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;Este es un párrafo de ejemplo.&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>Este es un párrafo de ejemplo.</p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/p" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;picture&gt;</td>
+                        <td>El elemento <code>&lt;picture&gt;</code> en HTML se utiliza para definir múltiples recursos de imagen y permitir al navegador seleccionar la mejor opción según el contexto y las capacidades del dispositivo del usuario. Esto es útil para la adaptación de imágenes en sitios web responsivos.</td>
+                        <td>
+                            <code>
+                                &lt;picture&gt; <br>
+                                &lt;source srcset="imagen-grande.jpg" media="(min-width: 800px)"&gt; <br>
+                                &lt;source srcset="imagen-pequeña.jpg"&gt; <br>
+                                &lt;img src="imagen-pequeña.jpg" alt="Descripción de la imagen"&gt; <br>
+                                &lt;/picture&gt;
+                            </code>
+                            <br>
+                            <picture>
+                                <source srcset="imagen-grande.jpg" media="(min-width: 800px)">
+                                <source srcset="imagen-pequeña.jpg">
+                                <img src="imagen-pequeña.jpg" alt="Descripción de la imagen">
+                            </picture>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/picture" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;pre&gt;</td>
+                        <td>El elemento <code>&lt;pre&gt;</code> en HTML se utiliza para mostrar texto preformateado, como código fuente o texto con espacios y saltos de línea. El texto dentro de <code>&lt;pre&gt;</code> se muestra con una fuente de ancho fijo, lo que preserva el formato y la disposición original del texto.</td>
+                        <td>
+                            <code>
+                                &lt;pre&gt;function saludar() { <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;console.log("¡Hola, mundo!"); <br>
+                                } <br>
+                                saludar(); <br>
+                                &lt;/pre&gt;
+                            </code>
+                            <br>
+                            <pre>function saludar() {
+                        console.log("¡Hola, mundo!");
+                    }
+                    saludar();</pre>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/pre" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;progress&gt;</td>
+                        <td>El elemento <code>&lt;progress&gt;</code> en HTML se utiliza para mostrar el progreso de una tarea, como la carga de una página o la realización de una operación en un formulario. Puedes especificar el valor actual y máximo para indicar el progreso.</td>
+                        <td>
+                            <code>
+                                &lt;progress value="50" max="100"&gt;50% completado&lt;/progress&gt;
+                            </code>
+                            <br>
+                            <progress value="50" max="100">50% completado</progress>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/progress" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;q&gt;</td>
+                        <td>El elemento <code>&lt;q&gt;</code> en HTML se utiliza para marcar una cita en línea, es decir, una cita corta que se encuentra dentro del texto principal y generalmente se rodea de comillas. Los navegadores suelen agregar automáticamente las comillas.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;Einstein dijo: &lt;q&gt;La imaginación es más importante que el conocimiento.&lt;/q&gt;&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>Einstein dijo: <q>La imaginación es más importante que el conocimiento.</q></p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/q" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;ruby&gt;</td>
+                        <td>El elemento <code>&lt;ruby&gt;</code> en HTML se utiliza para mostrar texto con anotaciones de ruby, que son pequeños caracteres o símbolos que se colocan sobre o al lado del texto principal, comúnmente utilizado en lenguajes como el japonés o el chino.</td>
+                        <td>
+                            <code>
+                                &lt;ruby&gt;東京&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;Tōkyō&lt;/rt&gt;&lt;rp&gt;) &lt;/ruby&gt;
+                            </code>
+                            <br>
+                            <ruby>東京<rp> (</rp><rt>Tōkyō</rt><rp>) </ruby>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/ruby" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;s&gt;</td>
+                        <td>El elemento <code>&lt;s&gt;</code> en HTML se utiliza para representar texto que es inexacto o irrelevante en un contexto particular, pero que se mantiene por razones históricas o para mantener el registro completo del contenido. El texto se muestra tachado por lo general.</td>
+                        <td>
+                            <code>
+                                &lt;s&gt;Texto obsoleto&lt;/s&gt;
+                            </code>
+                            <br>
+                            <s>Texto obsoleto</s>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/s" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;samp&gt;</td>
+                        <td>El elemento <code>&lt;samp&gt;</code> en HTML se utiliza para representar texto que es una muestra de salida de un programa de computadora o de otro tipo de datos. Este texto se muestra en una fuente de ancho fijo y generalmente en negrita.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;El resultado de &lt;samp&gt;echo "Hola, mundo"&lt;/samp&gt; es "Hola, mundo".&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>El resultado de <samp>echo "Hola, mundo"</samp> es "Hola, mundo".</p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/samp" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;script&gt;</td>
+                        <td>El elemento <code>&lt;script&gt;</code> en HTML se utiliza para incrustar o referenciar código JavaScript en una página web. Puedes colocarlo en la sección <code>&lt;head&gt;</code> o al final del <code>&lt;body&gt;</code> para ejecutar scripts.</td>
+                        <td>
+                            <code>
+                                &lt;script&gt; <br>
+                                // Código JavaScript aquí <br>
+                                &lt;/script&gt;
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/script" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;section&gt;</td>
+                        <td>El elemento <code>&lt;section&gt;</code> en HTML se utiliza para dividir el contenido de una página web en secciones temáticas o grupos relacionados de contenido. Ayuda a organizar y estructurar el contenido de la página de manera semántica.</td>
+                        <td>
+                            <code>
+                                &lt;section&gt; <br>
+                                &lt;h2&gt;Introducción&lt;/h2&gt; <br>
+                                &lt;p&gt;Texto de introducción.&lt;/p&gt; <br>
+                                &lt;/section&gt;
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/section" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;select&gt;</td>
+                        <td>El elemento <code>&lt;select&gt;</code> en HTML se utiliza para crear listas desplegables, donde los usuarios pueden seleccionar una opción de una lista de elementos. Se combina con elementos <code>&lt;option&gt;</code> que representan las opciones disponibles.</td>
+                        <td>
+                            <code>
+                                &lt;select&gt; <br>
+                                &lt;option value="opcion1"&gt;Opción 1&lt;/option&gt; <br>
+                                &lt;option value="opcion2"&gt;Opción 2&lt;/option&gt; <br>
+                                &lt;/select&gt;
+                            </code>
+                            <br>
+                            <select>
+                                <option value="opcion1">Opción 1</option>
+                                <option value="opcion2">Opción 2</option>
+                            </select>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/select" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;small&gt;</td>
+                        <td>El elemento <code>&lt;small&gt;</code> en HTML se utiliza para representar texto con un tamaño de fuente más pequeño y a menudo se usa para mostrar notas legales, créditos de derechos de autor u otro contenido secundario.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;Copyright &copy; 2023 &lt;small&gt;Mi Empresa&lt;/small&gt;&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>Copyright &copy; 2023 <small>Mi Empresa</small></p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/small" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;span&gt;</td>
+                        <td>El elemento <code>&lt;span&gt;</code> en HTML se utiliza para aplicar estilos o scripts a una parte específica del texto dentro de un elemento HTML más grande. Se utiliza cuando no hay un elemento semántico más adecuado disponible.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;Este es un &lt;span style="color: blue;"&gt;texto azul&lt;/span&gt; en un párrafo.&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>Este es un <span style="color: blue;">texto azul</span> en un párrafo.</p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/span" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;strong&gt;</td>
+                        <td>El elemento <code>&lt;strong&gt;</code> en HTML se utiliza para dar énfasis fuerte al texto y, por lo general, se muestra en negrita. Se utiliza para resaltar palabras o frases importantes en el contenido.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;Este es un &lt;strong&gt;texto importante&lt;/strong&gt; en un párrafo.&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>Este es un <strong>texto importante</strong> en un párrafo.</p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/strong" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;sub&gt;</td>
+                        <td>El elemento <code>&lt;sub&gt;</code> en HTML se utiliza para representar texto o números subíndice, que generalmente se utilizan en fórmulas químicas, ecuaciones matemáticas o notas a pie de página.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O es la fórmula del agua.&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>H<sub>2</sub>O es la fórmula del agua.</p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/sub" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;sup&gt;</td>
+                        <td>El elemento <code>&lt;sup&gt;</code> en HTML se utiliza para representar texto o números sobrescrito, que también se utilizan en fórmulas matemáticas, exponentes y notas a pie de página.</td>
+                        <td>
+                            <code>
+                                &lt;p&gt;2&lt;sup&gt;3&lt;/sup&gt; es igual a 8.&lt;/p&gt;
+                            </code>
+                            <br>
+                            <p>2<sup>3</sup> es igual a 8.</p>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/sup" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;svg&gt;</td>
+                        <td>El elemento <code>&lt;svg&gt;</code> en HTML se utiliza para incrustar gráficos vectoriales escalables (SVG) en una página web. Los gráficos SVG se pueden escalar a diferentes tamaños sin perder calidad.</td>
+                        <td>
+                            <code>
+                                &lt;svg width="100" height="100"&gt; <br>
+                                &lt;circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" /&gt; <br>
+                                &lt;/svg&gt;
+                            </code>
+                            <br>
+                            <svg width="100" height="100">
+                                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
+                            </svg>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/SVG" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td>El elemento <code>&lt;table&gt;</code> en HTML se utiliza para crear tablas en una página web. Las tablas constan de filas (<code>&lt;tr&gt;</code>), columnas (<code>&lt;td&gt;</code>), encabezados de columna (<code>&lt;th&gt;</code>) y otros elementos para estructurar y mostrar datos tabulares.</td>
+                        <td>
+                            <code>
+                                &lt;table&gt; <br>
+                                &lt;tr&gt; <br>
+                                &lt;th&gt;Encabezado 1&lt;/th&gt; <br>
+                                &lt;th&gt;Encabezado 2&lt;/th&gt; <br>
+                                &lt;/tr&gt; <br>
+                                &lt;tr&gt; <br>
+                                &lt;td&gt;Dato 1&lt;/td&gt; <br>
+                                &lt;td&gt;Dato 2&lt;/td&gt; <br>
+                                &lt;/tr&gt; <br>
+                                &lt;/table&gt;
+                            </code>
+                            <br>
+                            <table>
+                                <tr>
+                                    <th>Encabezado 1</th>
+                                    <th>Encabezado 2</th>
+                                </tr>
+                                <tr>
+                                    <td>Dato 1</td>
+                                    <td>Dato 2</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/table" target="_blank">Enlace</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;template&gt;</td>
                         <td></td>
                         <td></td>
                         <td><a href="" target="_blank">Enlace</a></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><a href="" target="_blank">Enlace</a></td>
-                    </tr>
-                    <tr>
-                        <td></td>
+                        <td>&lt;textarea&gt;</td>
                         <td></td>
                         <td></td>
                         <td><a href="" target="_blank">Enlace</a></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><a href="" target="_blank">Enlace</a></td>
-                    </tr>
-                    <tr>
-                        <td></td>
+                        <td>&lt;time&gt;</td>
                         <td></td>
                         <td></td>
                         <td><a href="" target="_blank">Enlace</a></td>
                     </tr>
                     <tr>
+                        <td>&lt;u&gt;</td>
                         <td></td>
+                        <td></td>
+                        <td><a href="" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td></td>
+                        <td></td>
+                        <td><a href="" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;var&gt;</td>
+                        <td></td>
+                        <td></td>
+                        <td><a href="" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;video&gt;</td>
+                        <td></td>
+                        <td></td>
+                        <td><a href="" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;wbr&gt;</td>
+                        <td></td>
+                        <td></td>
+                        <td><a href="" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;area&gt;</td>
+                        <td></td>
+                        <td></td>
+                        <td><a href="" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;link&gt;</td>
+                        <td></td>
+                        <td></td>
+                        <td><a href="" target="_blank">Enlace</a></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;meta&gt;</td>
                         <td></td>
                         <td></td>
                         <td><a href="" target="_blank">Enlace</a></td>
