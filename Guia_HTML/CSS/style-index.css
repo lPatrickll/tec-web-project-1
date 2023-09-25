@@ -2,3 +2,10 @@ body{
     background-color: black;
     color: white;
 }
+th{
+    background-color: blue;
+    color: white;
+}
+td{
+    background-color: rgb(225, 117, 2);
+}
