@@ -15,7 +15,7 @@ p::first-line{
     font-size: 2rem;
     font-weight: bolder;
 } */
-p.baz{
+/* p.baz{
     color: green;
 }
 
@@ -24,4 +24,10 @@ p.baz{
 }
 p{
     color: orange;
+} */
+
+.caja{
+    width: 1366px;
+    height: 659px;
+    background-color: red;
 }
