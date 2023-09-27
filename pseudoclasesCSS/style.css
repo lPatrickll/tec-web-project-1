@@ -1,0 +1,17 @@
+button:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+input:disabled{
+    background-color: orange;
+}
+p::first-line{
+    color: blue;
+}
+
+.foo, .bar, .faz{
+    color: orange;
+    font-size: 2rem;
+    font-weight: bolder;
+}
