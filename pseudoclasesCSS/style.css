@@ -26,8 +26,23 @@ p{
     color: orange;
 } */
 
+.padre{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
 .caja{
-    width: 1366px;
-    height: 659px;
-    background-color: red;
+    width: 25%;
+    height: 350px;
+    background-color: blueviolet;
+}
+
+.foo{
+    font-size: 1rem;
+}
+.bar{
+    font-size: 2rem;
+}
+.baz{
+    font-size: 3rem;
 }
