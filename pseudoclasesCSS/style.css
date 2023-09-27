@@ -15,7 +15,13 @@ p::first-line{
     font-size: 2rem;
     font-weight: bolder;
 } */
+p.baz{
+    color: green;
+}
 
-.foo p{
-    color: blue;
+.baz{
+    color: red;
+}
+p{
+    color: orange;
 }
