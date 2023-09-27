@@ -1,4 +1,4 @@
-button:hover{
+/* button:hover{
     background-color: red;
     color: white;
     border: 1px solid red;
@@ -14,4 +14,8 @@ p::first-line{
     color: orange;
     font-size: 2rem;
     font-weight: bolder;
+} */
+
+.foo p{
+    color: blue;
 }
