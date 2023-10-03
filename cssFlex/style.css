@@ -1,0 +1,71 @@
+*{
+    /*Regla de reseteo en todas mis paginas*/
+    box-sizing: border-box;
+}
+/* .caja{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    padding: 25px;
+    border: 45px solid orange;
+    margin: 45px;
+}
+@media all and (max-width: 480px){
+    .caja{
+        background-color: green;
+    }
+} */
+.foo{
+    background-color: orange;
+    /* width: 150px;
+    height: 150px; */
+    flex-basis: 200px;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+.bar{
+    background-color: aqua;
+    /* width: 150px;
+    height: 150px; */
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.baz{
+    background-color: blueviolet;
+    /* width: 150px;
+    height: 150px; */
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.fuu{
+    background-color: yellow;
+    /* width: 150px;
+    height: 150px; */
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.contenedor-flexible{
+    display: flex;
+    /* height: 700px; */
+    background-color: grey;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: space-between;
+}
+/* @media all and (max-width: 480px){
+    .contenedor-flexible, .contenedor-flexible2{
+        flex-direction: column;
+    }
+    .foo, .bar, .baz{
+        width: 100%;
+    }
+} */
+.contenedor-flexible2{
+    display: flex;
+    flex-direction: row;
+}

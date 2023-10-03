@@ -1,0 +1,47 @@
+*{
+    /*Regla de reseteo en todas mis paginas*/
+    box-sizing: border-box;
+}
+/* .caja{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    padding: 25px;
+    border: 45px solid orange;
+    margin: 45px;
+}
+@media all and (max-width: 480px){
+    .caja{
+        background-color: green;
+    }
+} */
+.foo{
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+}
+.bar{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+}
+.baz{
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+}
+.contenedor-flexible{
+    display: flex;
+    flex-direction: row-reverse;
+}@media all and (max-width: 480px){
+    .contenedor-flexible, .contenedor-flexible2{
+        flex-direction: column;
+    }
+    .foo, .bar, .baz{
+        width: 100%;
+    }
+}
+.contenedor-flexible2{
+    display: flex;
+    flex-direction: row;
+}
