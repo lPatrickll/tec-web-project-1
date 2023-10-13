@@ -28,9 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+/* body {
+	line-height: 100%;
+} */
 ol, ul {
 	list-style: none;
 }
@@ -50,9 +50,49 @@ table {
 /*/////////////////////////*/
 nav, footer{
     background-color: #3D0000;
+	color: white;
 }
+.navegador{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
 main{
     background-color: black;
-    width: 100vw;
-    height: 100vw;
+}
+.IMGwindows{
+	background-image: url(../IMG/windows.png);
+}
+.IMGmacOS{
+	background-image: url(../IMG/macOS.png);
+}
+.IMGlinux{
+	background-image: url(../IMG/linux.png);
+}
+.IMGlinux, .IMGmacOS, .IMGwindows{
+	height: 200px;
+	width: 200px;
+}
+.texto-imagen{
+	color: white;
+}
+
+
+ul.checklist {
+	list-style-type: none;
+}
+
+ul.checklist li {
+	position: relative;
+	padding-left: 25px; /* Ajusta el espacio para el check */
+}
+
+ul.checklist li::before {
+	content: '\2713'; /* Código Unicode del checkmark */
+	position: absolute;
+	left: 0;
 }
