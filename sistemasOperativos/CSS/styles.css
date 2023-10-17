@@ -53,6 +53,7 @@ nav, footer{
 	color: white;
 }
 .navegador{
+	height: 50px;
 	display: flex;
 	flex-direction: row;
     justify-content: space-around;
@@ -60,7 +61,21 @@ nav, footer{
     flex-wrap: nowrap;
 }
 
+.text-nav{
+	color: white;
+	font-size: 25px;
+}
 
+h1{
+	font-size: 100px;
+}
+h3{
+	font-size: 30px;
+}
+
+.contenedor-superior{
+	color: white;
+}
 main{
     background-color: black;
 }
