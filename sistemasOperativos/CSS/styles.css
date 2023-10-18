@@ -258,6 +258,15 @@ p, li{
 	background-size: cover;
 	background-position: center;
 }
+.imagen-top-linux{
+	background-image: url(../IMG/linux.png);
+	height: 300px;
+	width: 300px;
+	border: 10px solid #916BBF;
+	border-radius: 15px;
+	background-size: cover;
+	background-position: center;
+}
 
 h2{
 	color: white;
@@ -293,6 +302,9 @@ h2{
 }
 table, tr, td, th{
 	border: 1px solid white;
+}
+td, th{
+	padding: 5px;
 }
 table{
 	margin: 15px;

@@ -10,26 +10,88 @@
     <header>
         <nav>
             <ul class="navegador-page">
-                <div class="parte-izquierda">
-                    <li><a class="text-nav nav1" href="../HTML/windows.html">Windows</a></li>
-                    <li><a class="text-nav nav2" href="../HTML/linux.html">Linux</a></li>
-                </div>
-                <div class="parte-derecha">
-                    <li><a class="text-nav nav3" href="../index.html">Atras</a></li>
-                </div>
+                <li><a class="text-nav" href="../HTML/windows.html">Windows</a></li>
+                <li><a class="text-nav" href="../HTML/macOS.html">MacOS</a></li>
+                <li class="nav-izq"><a class="text-nav" href="#seccion-historia">Historia</a></li>
+                <li class="nav-izq"><a class="text-nav" href="#seccion-versiones">Versiones</a></li>
+                <li class="nav-izq"><a class="text-nav" href="#seccion-aplicaciones">Aplicaciones</a></li>
+                <li><a class="text-nav" href="../index.html">Atras</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="contenedor-top">
-            <div class="imagen-top"></div>
-            <h2 class="titulo">LINUX</h2>
-        </div>
-
-        <div class="descripcion">
-            <div class="historia"></div>
-            <div class="versiones"></div>
-            <div class="aplicaciones"></div>
+        <div class="center">
+            <div class="contenedor-principal">
+                <div class="contenedor-top">
+                    <div class="imagen-top-linux"></div>
+                </div>
+                <div class="descripcion">
+                    <h3>Historia de Linux</h3>
+                    <section id="seccion-historia">
+                        <article class="texto-articulo">
+                            <h4>Desarrollo del sistema operativo Linux:</h4>
+                            <p>El núcleo de Linux fue creado por Linus Torvalds en 1991 como un proyecto personal. A lo largo de los años, Linux se ha convertido en un sistema operativo de código abierto y gratuito que ha sido ampliamente adoptado en todo el mundo, no solo por su flexibilidad y versatilidad, sino también por su robustez y seguridad.</p>
+                            <h4>Razón detrás del desarrollo de Linux:</h4>
+                            <p>La principal motivación detrás del desarrollo de Linux fue crear un sistema operativo compatible con UNIX que pudiera ser accesible para todos de forma gratuita. Desde sus inicios, ha sido adoptado y desarrollado por una comunidad global de entusiastas y expertos en tecnología que buscan una alternativa de código abierto a los sistemas operativos comerciales.</p>
+                            <h4>Popularidad de Linux:</h4>
+                            <p>Linux ha ganado popularidad en una variedad de entornos, incluyendo servidores, supercomputadoras, dispositivos móviles y sistemas integrados. Su enfoque en la personalización y su capacidad para funcionar en una amplia gama de hardware han contribuido a su adopción en todo tipo de dispositivos y entornos de computación.</p>
+                        </article>
+                    </section>
+                    <h3>Distribuciones de Linux:</h3>
+                    <section id="seccion-versiones">
+                        <article class="texto-articulo">
+                            <p>Aquí tienes una lista de algunas de las distribuciones de Linux más conocidas, junto con sus años de lanzamiento y características clave:</p>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Distribucion</th>
+                                        <th>Descripcion</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ubuntu (2004)</td>
+                                        <td>Destacada por su facilidad de uso y su enfoque en la accesibilidad para los principiantes en Linux. Ha sido una de las distribuciones más populares y se utiliza ampliamente tanto en entornos de escritorio como en servidores.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Debian (1993)</td>
+                                        <td>Reconocida por su estabilidad y su enfoque en el software libre. Debian se ha utilizado como base para muchas otras distribuciones populares, incluyendo Ubuntu y Linux Mint.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Linux Mint (2006)</td>
+                                        <td>Basada en Ubuntu y Debian, Linux Mint se destaca por su facilidad de uso y su diseño elegante. Viene preinstalada con una variedad de software y controladores para una experiencia de usuario más completa.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fedora (2003)</td>
+                                        <td>Conocida por adoptar tecnologías nuevas y prometedoras, Fedora sirve como campo de pruebas para futuras innovaciones en el mundo de Linux. Es estable y amigable para los desarrolladores.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CentOS (2004)</td>
+                                        <td>Reconocida por su estabilidad y su uso generalizado en servidores. CentOS se basa en el código fuente de Red Hat Enterprise Linux (RHEL) y se enfoca en la seguridad y la fiabilidad.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Arch Linux (2002)</td>
+                                        <td>Valorada por su enfoque minimalista y su sistema de paquetes que permite a los usuarios personalizar completamente su entorno de Linux. Se adapta bien a usuarios avanzados que prefieren una mayor flexibilidad.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </article>
+                    </section>
+                    <h3>Nuevas Actualizaciones y Aplicaciones Resaltantes:</h3>
+                    <section id="seccion-aplicaciones">
+                        <article class="texto-articulo">
+                            <p>El ecosistema de Linux continúa evolucionando con nuevas actualizaciones y aplicaciones destacadas. Algunas de las actualizaciones y aplicaciones más resaltantes de Linux incluyen:</p>
+                            <ul class="checklist">
+                                <li class="list-sis"><p><samp>Kernel de Linux: </samp>El núcleo de Linux se actualiza regularmente con mejoras en el rendimiento, la seguridad y la compatibilidad con hardware.</p></li>
+                                <li class="list-sis"><p><samp>GNOME y KDE Plasma: </samp>Dos de los entornos de escritorio más populares en Linux que proporcionan interfaces gráficas intuitivas y personalizables para los usuario</p></li>
+                                <li class="list-sis"><p><samp>LibreOffice: </samp>Una suite de oficina completa y de código abierto que incluye aplicaciones como Writer, Calc y Impress, proporcionando alternativas a las soluciones comerciales.</li>
+                                <li class="list-sis"><p><samp>Docker: </samp>Una plataforma de contenedores que facilita la implementación y administración de aplicaciones en entornos de Linux.</li>
+                                <li class="list-sis"><p><samp>Mozilla Firefox y Google Chrome: </samp>Navegadores web populares que ofrecen una experiencia de navegación rápida y segura en el sistema operativo Linux.</li>
+                            </ul>
+                        </article>
+                    </section>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
