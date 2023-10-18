@@ -10,26 +10,95 @@
     <header>
         <nav>
             <ul class="navegador-page">
-                <div class="parte-izquierda">
-                    <li><a class="text-nav" href="../HTML/macOS.html">MacOS</a></li>
-                    <li><a class="text-nav" href="../HTML/linux.html">Linux</a></li>
-                </div>
-                <div class="parte-derecha">
-                    <li><a class="text-nav" href="../index.html">Atras</a></li>
-                </div>
+                <li><a class="text-nav" href="../HTML/macOS.html">MacOS</a></li>
+                <li><a class="text-nav" href="../HTML/linux.html">Linux</a></li>
+                <li class="nav-izq"><a class="text-nav" href="#seccion-historia">Historia</a></li>
+                <li class="nav-izq"><a class="text-nav" href="#seccion-versiones">Versiones</a></li>
+                <li class="nav-izq"><a class="text-nav" href="#seccion-aplicaciones">Aplicaciones</a></li>
+                <li><a class="text-nav" href="../index.html">Atras</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="contenedor-top">
-            <div class="imagen-top"></div>
-            <h2 class="titulo">WINDOWS</h2>
-        </div>
-
-        <div class="descripcion">
-            <div class="historia"></div>
-            <div class="versiones"></div>
-            <div class="aplicaciones"></div>
+        <div class="center">
+            <div class="contenedor-principal">
+                <div class="contenedor-top">
+                    <div class="imagen-top-windows"></div>
+                </div>
+                <div class="descripcion">
+                    <h3>Historia de Windows</h3>
+                    <section id="seccion-historia">
+                        <article class="texto-articulo">
+                            <h4>Desarrollo del sistema operativo Windows:</h4>
+                            <p>El sistema operativo Windows fue desarrollado por Microsoft, una empresa fundada por Bill Gates y Paul Allen en 1975. El desarrollo de Windows comenzó en la década de 1980 como una interfaz gráfica de usuario (GUI) que se ejecutaba sobre el sistema operativo MS-DOS de Microsoft. Su objetivo era facilitar el uso de las computadoras personales y hacerlas más accesibles para un público más amplio.</p>
+                            <h4>Razón detrás del desarrollo de Windows:</h4>
+                            <p>La razón principal detrás del desarrollo de Windows fue mejorar la experiencia de usuario en comparación con la línea de comandos tradicional de MS-DOS. Windows ofrecía una interfaz gráfica intuitiva que permitía a los usuarios interactuar con la computadora de manera más visual y amigable. Esto abrió las puertas a un público más amplio y contribuyó al crecimiento de la industria de la computación personal.</p>
+                            <h4>Popularidad de Windows:</h4>
+                            <p>Windows se convirtió en el sistema operativo más utilizado del mundo debido a su adopción masiva en la década de 1990. La facilidad de uso, la compatibilidad con una amplia gama de hardware y software, y una inversión significativa en marketing ayudaron a consolidar la posición de Windows en el mercado. A lo largo de los años, Microsoft ha seguido desarrollando y actualizando Windows para mantenerlo relevante y competitivo.</p>
+                        </article>
+                        
+                    </section>
+                    <h3>Versiones de Windows:</h3>
+                    <section id="seccion-versiones">
+                        <article class="texto-articulo">
+                            <p>Aquí hay una lista de algunas de las versiones más destacadas de Windows, junto con sus años de lanzamiento y logros clave:</p>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Version</th>
+                                        <th>Descripcion</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Windows 1.0 (1985)</td>
+                                        <td>Fue la primera versión de Windows y proporcionó una interfaz gráfica básica para MS-DOS. Introdujo ventanas superpuestas y una serie de aplicaciones, como el Bloc de Notas y el Paint.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Windows 3.0 (1990)</td>
+                                        <td>Marcó un gran avance con el soporte para colores y gráficos mejorados. Introdujo el Administrador de programas y el Solitario, que se convirtió en un juego icónico.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Windows 95 (1995)</td>
+                                        <td>Fue un lanzamiento revolucionario con una interfaz de usuario más pulida, el botón de Inicio y el sistema de archivos FAT32. También introdujo el famoso juego "Buscaminas."</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Windows XP (2001)</td>
+                                        <td>Conocido por su estabilidad y rendimiento, Windows XP se convirtió en uno de los sistemas operativos más queridos. Introdujo la interfaz Luna y el Asistente de búsqueda.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Windows 7 (2009)</td>
+                                        <td>Mejoró la interfaz y la usabilidad. Se destacó por Aero, una interfaz de usuario transparente, y la barra de tareas mejorada.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Windows 8 (2012)</td>
+                                        <td>Introdujo una interfaz radicalmente diferente con azulejos (tiles) y se diseñó pensando en dispositivos táctiles. No fue tan bien recibido como las versiones anteriores.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Windows 10 (2015)</td>
+                                        <td>Marcó el regreso del menú de Inicio clásico y ofreció una plataforma unificada para dispositivos, incluyendo PC, tabletas y teléfonos. Además, presentó Cortana y el navegador Microsoft Edge.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </article>
+                    </section>
+                    <h3>Nuevas Actualizaciones y Aplicaciones Resaltantes:</h3>
+                    <section id="seccion-aplicaciones">
+                        <article class="texto-articulo">
+                            <p>Windows sigue recibiendo actualizaciones periódicas con nuevas características y mejoras. Algunas de las actualizaciones y aplicaciones más resaltantes de Windows incluyen:</p>
+                            <ul class="checklist">
+                                <li class="list-sis"><p><samp>Windows 10 Anniversary Update (2016): </samp>Introdujo Windows Ink y mejoras en la seguridad.</p></li>
+                                <li class="list-sis"><p><samp>Windows 10 Creators Update (2017): </samp>Se centró en la creatividad con características como Paint 3D y la transmisión de juegos.</p></li>
+                                <li class="list-sis"><p><samp>Windows 10 Fall Creators Update (2017): </samp>Agregó soporte para realidad mixta y mejoras en Cortana.</li>
+                                <li class="list-sis"><p><samp>Windows 11 (2021): </samp>Lanzado con una interfaz rediseñada, con menús centrados y nuevas características como Snap Layouts y Snap Groups.</li>
+                                <li class="list-sis"><p><samp>Microsoft Office: </samp>Microsoft Office es una suite de aplicaciones ampliamente utilizada que incluye Word, Excel, PowerPoint y Outlook, entre otras.</li>
+                                <li class="list-sis"><p><samp>Microsoft Edge: </samp>El navegador web de Microsoft, basado en Chromium, ofrece velocidad y compatibilidad con extensiones de Chrome.</li>
+                                <li class="list-sis"><p><samp>Microsoft Teams: </samp>Una aplicación de colaboración y comunicación que se ha vuelto fundamental para el trabajo en equipo y la educación en línea.</li>
+                            </ul>
+                        </article>
+                    </section>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
